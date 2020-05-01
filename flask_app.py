@@ -15,7 +15,7 @@ import json
 app = Flask(__name__)
 
 # Устанавливаем уровень логирования
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 # Создадим словарь, чтобы для каждой сессии общения 
 # с навыком хранились подсказки, которые видел пользователь.
